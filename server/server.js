@@ -1,7 +1,8 @@
 const express = require("express");
 const _ = require("lodash");
 const bodyParser = require("body-parser").json();
-const port = process.env.port || 5030;
+//const port = process.env.port || 3000;
+const port=3000;
 const { Geolocation } = require("./model/Geolocation");
 const { Users } = require("./model/Users");
 const bcrypt = require("bcryptjs");

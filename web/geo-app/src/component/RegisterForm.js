@@ -28,7 +28,7 @@ class RegisterForm extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    axios.post('http://localhost:5010/users/register',this.state)
+    axios.post('http://localhost:3000/users/register',this.state)
     .then(function(response){
       alert("Registration Success");
     }).catch((err)=>{
